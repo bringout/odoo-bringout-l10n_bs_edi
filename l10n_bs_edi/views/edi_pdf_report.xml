@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<!--
+    odoo/addons/account/views/report_invoice.xml
+-->
+
+    <template id="l10n_bs_edi_report_invoice_document_inherit" inherit_id="account.report_invoice_document">
+        <xpath expr="//div[@id='informations']" position="inside">
+            <t t-set="fiskalni_broj" t-value="o.ba_edi_fiskalni_broj"/>
+            <div class="col-auto col-3 mw-100 mb-2" t-if="fiskalni_broj" name="ack_no">
+                <strong>Fiskalni račun:</strong>
+                <p class="m-0" t-out="fiskalni_broj"/>
+            </div>
+        </xpath>
+       <!--
+        <xpath expr="//div[@id='total']/div[1]" position="attributes">
+            <attribute name="t-attf-class">{{('col-6' if report_type != 'html' else 'col-sm-6 col-md-5 ms-auto') if fiskalni_broj ''}}
+                {{(('col-6' if report_type != 'html' else 'col-sm-7 col-md-6') + ' ms-auto') if not fiskalni_broj else ''}}</attribute>
+        </xpath>
+
+
+        <xpath expr="//div[@id='total']/div[1]" position="before">
+            <t t-set="ba_edi_json" t-value="o._get_ba_edi_response_json()"/>
+            <div t-attf-class="#{'col-6' if report_type != 'html' else 'col-sm-7 col-md-6 ms-auto'} row" t-if="ba_edi_json">
+                <div class="col-7 me-2">
+                    <strong>IRN:</strong>
+                    <span t-esc="ba_edi_json['Irn']"/>
+                </div>
+                <div class="col-3 mt-1">
+                    <img t-att-src="'/report/barcode/?barcode_type=%s&amp;value=%s&amp;width=%s&amp;height=%s' %('QR', ba_edi_json['SignedQRCode'], 500, 500)" style="max-height: 155px"/>
+                </div>
+            </div>
+        </xpath>
+        -->
+    </template>
+</odoo>
