@@ -122,7 +122,7 @@ msgstr "Kompanije"
 #. module: l10n_bs_edi
 #: model:ir.model,name:l10n_bs_edi.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: l10n_bs_edi
 #: model:ir.model.fields.selection,name:l10n_bs_edi.selection__account_move__l10n_bs_edi_cancel_reason__2
