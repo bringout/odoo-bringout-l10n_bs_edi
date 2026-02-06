@@ -21,7 +21,9 @@ msgstr ""
 msgid ""
 "\n"
 "- City required min 3 and max 100 characters"
-msgstr "- Grad potreban min 3 i max 100 znakova"
+msgstr ""
+"\n"
+"- Grad potreban min 3 i max 100 znakova"
 
 #. module: l10n_bs_edi
 #: code:addons/l10n_bs_edi/models/account_edi_format.py
@@ -29,7 +31,9 @@ msgstr "- Grad potreban min 3 i max 100 znakova"
 msgid ""
 "\n"
 "- Email address should be valid and not more then 100 characters"
-msgstr "- E-mail adresa treba biti valjana i ne više od 100 znakova"
+msgstr ""
+"\n"
+"- E-mail adresa treba biti valjana i ne više od 100 znakova"
 
 #. module: l10n_bs_edi
 #: code:addons/l10n_bs_edi/models/account_edi_format.py
@@ -37,7 +41,9 @@ msgstr "- E-mail adresa treba biti valjana i ne više od 100 znakova"
 msgid ""
 "\n"
 "- Mobile number should be minimum 10 or maximum 12 digits"
-msgstr "- Broj mobitela treba biti minimum 10 ili maksimum 12 cifara"
+msgstr ""
+"\n"
+"- Broj mobitela treba biti minimum 10 ili maksimum 12 cifara"
 
 #. module: l10n_bs_edi
 #: code:addons/l10n_bs_edi/models/account_edi_format.py
@@ -45,7 +51,9 @@ msgstr "- Broj mobitela treba biti minimum 10 ili maksimum 12 cifara"
 msgid ""
 "\n"
 "- State required min 3 and max 50 characters"
-msgstr "- Država potrebna min 3 i max 50 znakova"
+msgstr ""
+"\n"
+"- Država potrebna min 3 i max 50 znakova"
 
 #. module: l10n_bs_edi
 #: code:addons/l10n_bs_edi/models/account_edi_format.py
@@ -53,7 +61,9 @@ msgstr "- Država potrebna min 3 i max 50 znakova"
 msgid ""
 "\n"
 "- Street required min 3 and max 100 characters"
-msgstr "- Ulica potrebna min 3 i max 100 znakova"
+msgstr ""
+"\n"
+"- Ulica potrebna min 3 i max 100 znakova"
 
 #. module: l10n_bs_edi
 #: code:addons/l10n_bs_edi/models/account_edi_format.py
@@ -61,7 +71,9 @@ msgstr "- Ulica potrebna min 3 i max 100 znakova"
 msgid ""
 "\n"
 "- Street2 should be min 3 and max 100 characters"
-msgstr "- Ulica2 treba biti min 3 i max 100 znakova"
+msgstr ""
+"\n"
+"- Ulica2 treba biti min 3 i max 100 znakova"
 
 #. module: l10n_bs_edi
 #: code:addons/l10n_bs_edi/models/account_edi_format.py
@@ -69,7 +81,9 @@ msgstr "- Ulica2 treba biti min 3 i max 100 znakova"
 msgid ""
 "\n"
 "- Zip code required 6 digits"
-msgstr "- Poštanski kod potreban 6 cifara"
+msgstr ""
+"\n"
+"- Poštanski kod potreban 6 cifara"
 
 #. module: l10n_bs_edi
 #: model_terms:ir.ui.view,arch_db:l10n_bs_edi.res_config_settings_view_form_inherit_l10n_bs_edi
